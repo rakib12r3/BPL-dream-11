@@ -1,0 +1,74 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm Orthodox",
+    "battingStyle": "Left-handed",
+    "price": 500
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-handed",
+    "price": 300
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "Pakistan",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "playerName": "Virat Kohli",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "India",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Medium",
+    "battingStyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "playerName": "Rashid Khan",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "Afghanistan",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm Leg Break",
+    "battingStyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm Fast",
+    "battingStyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "playerName": "Joe Root",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "England",
+    "playerType": "Batter",
+    "bowlingStyle": "Right-arm Off Break",
+    "battingStyle": "Right-handed",
+    "price":600
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerImg": "https://cdn.pixabay.com/photo/2024/04/11/05/29/david-warner-8689228_1280.jpg",
+    "origin": "New Zealand",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm Fast Medium",
+    "battingStyle": "Left-handed",
+    "price": 200
+  }
+]

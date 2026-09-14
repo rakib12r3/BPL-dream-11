@@ -1,4 +1,4 @@
-import React, { useState, type Dispatch, type SetStateAction } from 'react';
+import { useState, type Dispatch, type SetStateAction } from 'react';
 import { FaUser } from 'react-icons/fa';
 import type { Iplayer } from '../../Types/player';
 import { Bounce, toast } from 'react-toastify';
@@ -8,14 +8,14 @@ interface IPlayerCardProps {
   player: Iplayer
   coin: number
   setCoin: Dispatch<SetStateAction<number>>
-   selectedPlayers: Iplayer[]
-   setSelectePlayers: Dispatch<SetStateAction<Iplayer[]>>
+  selectedPlayers: Iplayer[]
+  setSelectePlayers: Dispatch<SetStateAction<Iplayer[]>>
 }
 
-const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectePlayers}: IPlayerCardProps) => {
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectePlayers }: IPlayerCardProps) => {
   const [isSelected, setIsSelected] = useState(false)
 
- 
+
 
   // console.log(coin, setCoin, "From card");
 
@@ -23,21 +23,21 @@ const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectePlayers}
     setIsSelected(true)
     const newCoinPrice = coin - player.price
 
-    if(newCoinPrice >= 0){
+    if (newCoinPrice >= 0) {
       setCoin(newCoinPrice);
-      
+
       toast.success(`${player.playerName} is purchase successfully `, {
-position: "top-center",
-autoClose: 5000,
-hideProgressBar: false,
-closeOnClick: false,
-pauseOnHover: true,
-draggable: true,
-progress: undefined,
-theme: "light",
-transition: Bounce,
-});
-    }else{
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    } else {
       toast.error('Coin is not enough to purchase')
     }
 

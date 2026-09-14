@@ -1,6 +1,5 @@
 import { HiMiniCurrencyDollar } from 'react-icons/hi2';
 import logo from '../assets/logo.png'
-import { useState } from 'react';
 
 
 const Nav = ({ coin }:{coin:number}) => {
